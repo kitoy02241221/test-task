@@ -12,7 +12,7 @@ body {
   top: 10px;
   left: 25%;
   width: 3px;
-  height: 2210px;
+  height: 100%;
   background: #0ff;
   box-shadow:
     0 0 5px #0ff,
@@ -27,7 +27,7 @@ body {
   top: 10px;
   left: 75%;
   width: 3px;
-  height: 2210px;
+  height: 100%;
   background: #0ff;
   box-shadow:
     0 0 5px #0ff,
@@ -89,7 +89,7 @@ body {
   background: #212139;
   border-radius: 10px;
 
-  display: block;
+  display: ;
   width: 280px;
   height: 860px;
   padding-left: 20px;
@@ -100,8 +100,6 @@ body {
   justify-content: center;
 
   overflow: hidden;
-
-  /* z-index: 10; */
 }
 
 .theWitcherCard h2 {
@@ -263,6 +261,7 @@ body {
 .Card {
   display: flex;
   margin-left: 26.5%;
+  margin-right: 25%;
   overflow: hidden;
   max-width: 1740px;
   flex-wrap: wrap;
