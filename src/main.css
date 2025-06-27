@@ -153,7 +153,7 @@ body {
   z-index: 1000;
   padding: 20px;
   box-sizing: border-box;
-  border-radius: 8px;
+  border-radius: 9px;
   overflow-y: auto;
 }
 
