@@ -184,7 +184,7 @@ body {
 
 .gameState {
   position: absolute;
-  top: 630px;
+  top: 510px;
 }
 
 .modalImg {
@@ -217,7 +217,7 @@ body {
   display: inline;
   position: absolute;
   margin-left: 620px;
-  margin-top: -70px;
+  margin-top: -60px;
   max-width: 600px;
   border: none;
   box-shadow: none;
