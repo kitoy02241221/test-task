@@ -19,8 +19,10 @@ const Card =({product}) => {
                 <p className="descriptionCard">{product.description}</p>
                 <button className="buttonCard" onClick={setIsOpen}><span>Подробнее</span></button>
             </div>
+            
 
-            <div className='theWitcherModal' style={styleModal}>
+    <div className="modalBackdrop " style={styleModal}>
+                <div className='theWitcherModal' style={styleModal}>
                         <div>
                                 <h2>{product.name}</h2>
                                     <img className="modalImg" src={product.image} alt="The Witcher 3" />
@@ -33,6 +35,7 @@ const Card =({product}) => {
                                 <h3>Описание:</h3>
                                 <p className='description'>{product.allDescription}</p>
                             </div>
+                            
                             
                             <div className='systemRequirements'>
                                 <h2>Минмальные требование:</h2>
@@ -67,6 +70,7 @@ const Card =({product}) => {
                         <img src={product.Screen_5} className="screenGame"/>
                     </div>
         </div>
+    </div>
     
     )
 }

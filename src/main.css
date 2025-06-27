@@ -19,7 +19,7 @@ body {
     0 0 10px #0ff,
     0 0 20px #0ff,
     0 0 40px #0ff;
-    z-index: 2000;
+    z-index: -10;
 }
 
 .decoration:last-child {
@@ -34,7 +34,7 @@ body {
     0 0 10px #0ff,
     0 0 20px #0ff,
     0 0 40px #0ff;
-  z-index: 2000;
+  z-index: -10;
 
 }
 
@@ -82,7 +82,7 @@ body {
 
 .header button:hover {
   cursor: pointer;
-  display: block;
+
 }
 
 .theWitcherCard {
@@ -141,18 +141,30 @@ body {
 
 .theWitcherModal {
   position: fixed;
-  top: 0;
-  left: 0;
-  padding-left: 860px;
-  padding-top: 4%;
-  width: 100%;
-  height: 100%;
-  background-color: rgba(10, 10, 20, 0.9);
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 2500px;
+  max-width: 1800px;
+  max-height: 100vh;
   display: flex;
   align-items: center;
   justify-content: center;
   z-index: 1000;
-  overflow: hidden;
+  padding: 20px;
+  box-sizing: border-box;
+  border-radius: 8px;
+  overflow-y: auto;
+}
+
+.modalBackdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(10, 10, 20, 0.8);
+  z-index: 1000;
 }
 
 .theWitcherModal div:first-child {
@@ -222,8 +234,8 @@ body {
   position: absolute;
   width: 30px;
   height: 30px;
-  top: 148px;
-  left: 2525px;
+  top: 30px;
+  left: 1690px;
   border-radius: 30px;
   border: none;
 }
@@ -671,3 +683,5 @@ body {
     margin: 0;
   }
 }
+
+
