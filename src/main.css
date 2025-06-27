@@ -429,3 +429,245 @@ body {
     0 0 20px #ff2df7,
     0 0 30px #00fff7;
 }
+
+
+@media (max-width: 600px) {
+  body {
+    font-size: 14px;
+  }
+
+  .decoration {
+    display: none;
+  }
+
+  .header {
+    width: 100%;
+    height: 60px;
+    font-size: 14px;
+    background-position: center;
+    background-size: cover;
+    border-radius: 0;
+    padding: 0 10px;
+    justify-content: center;
+  }
+
+  .header h1 {
+    margin-left: 0;
+    font-size: 18px;
+  }
+
+  .logo {
+    margin-left: 10px;
+    margin-top: 10px;
+    font-size: 24px;
+  }
+
+  .theWitcherCard {
+    width: 90%;
+    height: auto;
+    margin: 20px auto;
+    padding: 10px;
+  }
+
+  .gameBlock {
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .Card {
+    margin-left: 0;
+    max-width: 100%;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    position: static;
+  }
+
+  .cardImg {
+    position: static;
+    width: 100%;
+    height: auto;
+    margin-top: 10px;
+  }
+
+  .descCard {
+    position: static;
+    top: auto;
+    margin-top: 10px;
+    width: 100%;
+    padding: 0 10px;
+  }
+
+  .descriptionCard {
+    width: 100%;
+  }
+
+  .theWitcherModal div:first-child {
+    width: 95%;
+    height: auto;
+    padding: 20px 10px;
+    margin: 10px auto;
+  }
+
+  .theWitcherModal {
+    padding-left: 0;
+    padding-top: 5%;
+    overflow-y: auto;
+  }
+
+  .modalImg {
+    width: 90%;
+    height: auto;
+    margin: 0 auto;
+    display: block;
+  }
+
+  .description {
+    width: 100%;
+    padding: 0 10px;
+  }
+
+  .screenGame {
+    position: static;
+    width: 100%;
+    height: auto;
+    margin: 10px 0;
+    left: 0;
+  }
+
+  .gameState {
+    margin: 10px 0 0 0;
+    position: static;
+    max-width: 100%;
+  }
+
+  .systemRequirements {
+    position: static;
+    margin: 10px 0;
+    max-width: 100%;
+  }
+
+  .screen {
+    position: static;
+    top: auto;
+    left: auto;
+    margin: 10px 0;
+  }
+
+  .closeModal {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    left: auto;
+  }
+
+  .filter {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 90%;
+    font-size: 16px;
+    gap: 8px;
+    padding: 8px 10px;
+  }
+
+  .filter label {
+    font-size: 16px;
+  }
+
+  .filter select {
+    max-width: 100%;
+    font-size: 16px;
+    height: 35px;
+    padding: 5px 10px;
+  }
+
+  .buttonCard {
+    width: 100%;
+    max-width: 280px;
+    margin: 0 auto 15px auto;
+  }
+}
+
+
+@media (max-width: 600px) {
+  .theWitcherModal {
+    padding-left: 0;
+    padding-top: 5%;
+    overflow-y: auto;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+
+  .theWitcherModal div:first-child {
+    width: 95%;
+    max-width: 95vw;
+    height: auto;
+    max-height: 90vh;
+    padding: 20px 15px;
+    margin: 10px auto;
+    border-radius: 12px;
+    box-shadow: 0 0 15px #ff3cacaa;
+    overflow-y: auto;
+  }
+
+  .modalImg {
+    width: 100%;
+    height: auto;
+    margin: 0 auto 20px;
+    display: block;
+  }
+
+  .description {
+    width: 100%;
+    padding: 0 5px;
+    font-size: 16px;
+  }
+
+  .screenGame {
+    position: static;
+    width: 100%;
+    height: auto;
+    margin: 15px 0;
+    left: 0;
+    top: 0;
+  }
+
+  .gameState {
+    position: static;
+    margin: 10px 0;
+    max-width: 100%;
+  }
+
+  .systemRequirements {
+    position: static;
+    margin: 10px 0;
+    max-width: 100%;
+  }
+
+  .screen {
+    position: static;
+    margin: 10px 0;
+    top: auto;
+    left: auto;
+  }
+
+  .closeModal {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    left: auto;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background-color: transparent;
+  }
+
+  .closeModal:hover {
+    background-color: #18B2FF;
+  }
+
+  .closeModal img {
+    width: 18px;
+    margin: 0;
+  }
+}
