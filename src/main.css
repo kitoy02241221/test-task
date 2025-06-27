@@ -82,6 +82,7 @@ body {
 
 .header button:hover {
   cursor: pointer;
+  display: block;
 }
 
 .theWitcherCard {
