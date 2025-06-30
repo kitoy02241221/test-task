@@ -272,6 +272,8 @@ body {
 
 .Card {
   display: flex;
+  justify-content: center;
+  align-items: center;
   margin-left: 26%;
   margin-right: 25%;
   overflow: hidden;
@@ -443,6 +445,12 @@ body {
 
 
 @media (max-width: 1325px) {
+  .Card {
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  }
+  
   body {
     font-size: 14px;
   }
@@ -600,6 +608,12 @@ body {
 
 
 @media (max-width: 600px) {
+
+  .Card {
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  }
   .theWitcherModal {
     width: 80%;
     padding-left: 0;
@@ -686,6 +700,13 @@ body {
 
 
 @media (max-width: 1919px) {
+
+  .Card {
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  }
+
   .theWitcherModal {
     width: 100%;
     max-width: 95vw;
