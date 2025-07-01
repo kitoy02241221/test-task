@@ -535,6 +535,7 @@ body {
   }
 
   .theWitcherModal {
+    position: relative;
     width: 700px;
   }
 
@@ -579,8 +580,8 @@ body {
 
   .closeModal {
     position: absolute;
-    margin-top: 15px;
-    margin-right: 25px;
+    margin-top: 10px;
+    margin-right: 5px;
   }
 
   .closeModal img {
